@@ -700,6 +700,31 @@ header {
   justify-content: flex-end;
   align-items: flex-end;
 }
+.left {
+  margin-right: 2rem;
+}
+.left,
+.right {
+  padding: 0.8rem 1.4rem;
+  font-size: 2rem;
+  background: #ffffff;
+  border: 1px solid #4c6bd7;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+}
+.left:hover,
+.right:hover {
+  background: #4c6bd7;
+  color: #fff;
+}
 .footer {
   padding: 2.5rem 0;
   background: #343434;
